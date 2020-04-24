@@ -1,7 +1,7 @@
 @echo off
 
 rem -------------------------------------------------------------
-rem  CleverPHP command line bootstrap script for Windows.
+rem  cleverphp command line bootstrap script for Windows.
 rem -------------------------------------------------------------
 
 @setlocal

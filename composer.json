@@ -1,10 +1,10 @@
 {
-  "name": "cleverstone/CleverPHP",
-  "description": "The CleverPHP Framework. ",
+  "name": "cleverstone/cleverphp",
+  "description": "The cleverphp Framework. ",
   "keywords": [
     "framework",
-    "CleverPHP",
-    "COP"
+    "cleverphp",
+    "cop"
   ],
   "homepage": "http://cleverstone.cn/",
   "license": "MIT",

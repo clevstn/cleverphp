@@ -1,0 +1,8 @@
+RewriteEngine ON
+RewriteCond	%{REQUEST_FILENAME}	!-f
+RewriteCond	$1	!^(index\.php|robots\.txt|favicon\.ico|Sitemap\.xml|pma)
+RewriteRule	^(.*)$	index.php/$1 [L]
+php_value upload_max_filesize "50M"
+php_value post_max_size "50M"
+php_value max_execution_time "40000"
+php_value memory_limit "128M"
