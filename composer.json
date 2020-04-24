@@ -1,0 +1,43 @@
+{
+  "name": "cleverstone/CleverPHP",
+  "description": "The CleverPHP Framework. ",
+  "keywords": [
+    "framework",
+    "CleverPHP",
+    "COP"
+  ],
+  "homepage": "http://cleverstone.cn/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "cleverstone",
+      "email": "yang_hui_lei@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1.0",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "psr/log": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "app\\": "app",
+      "ext\\": "ext"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "clever\\tests\\": "src/tests/"
+    }
+  },
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  }
+}
