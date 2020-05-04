@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e72a2aac961a61805110d516503731f4",
+    "content-hash": "7818d37a164650e44d671aa56bfc0b08",
     "packages": [
+        {
+            "name": "cleverstone/cleverphp-src",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cleverstone/cleverphp-src.git",
+                "reference": "8eae084e8700bf2199acfc705b19f3f90aa1d51c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cleverstone/cleverphp-src/zipball/8eae084e8700bf2199acfc705b19f3f90aa1d51c",
+                "reference": "8eae084e8700bf2199acfc705b19f3f90aa1d51c",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "clever\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "cleverstone",
+                    "email": "yang_hui_lei@163.com"
+                }
+            ],
+            "description": "The CleverPHP Vendor Package",
+            "time": "2020-04-24T15:53:14+00:00"
+        },
         {
             "name": "psr/log",
             "version": "1.1.3",
@@ -293,16 +336,16 @@
         },
         {
             "name": "phpdocumentor/reflection-common",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
-                "reference": "63a995caa1ca9e5590304cd845c15ad6d482a62a"
+                "reference": "6568f4687e5b41b054365f9ae03fcb1ed5f2069b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/63a995caa1ca9e5590304cd845c15ad6d482a62a",
-                "reference": "63a995caa1ca9e5590304cd845c15ad6d482a62a",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/6568f4687e5b41b054365f9ae03fcb1ed5f2069b",
+                "reference": "6568f4687e5b41b054365f9ae03fcb1ed5f2069b",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -313,9 +356,6 @@
             },
             "require": {
                 "php": ">=7.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6"
             },
             "type": "library",
             "extra": {
@@ -347,7 +387,7 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2018-08-07T13:53:10+00:00"
+            "time": "2020-04-27T09:25:28+00:00"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
