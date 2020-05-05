@@ -9,3 +9,9 @@
 // + -----------------------------------------------------------------------------------
 // | Author: cleverstone
 // +------------------------------------------------------------------------------------
+
+// Registration framework psr4 is automatically loaded.
+require_once __DIR__ . '/vendor/autoload.php';
+
+// The application start and output the result.
+(new \clever\console\App)->run();

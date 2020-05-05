@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cleverstone/cleverphp-src.git",
-                "reference": "8eae084e8700bf2199acfc705b19f3f90aa1d51c"
+                "reference": "56d240a2f6eca3451e5d2036a4600d063db41c44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cleverstone/cleverphp-src/zipball/8eae084e8700bf2199acfc705b19f3f90aa1d51c",
-                "reference": "8eae084e8700bf2199acfc705b19f3f90aa1d51c",
+                "url": "https://api.github.com/repos/cleverstone/cleverphp-src/zipball/56d240a2f6eca3451e5d2036a4600d063db41c44",
+                "reference": "56d240a2f6eca3451e5d2036a4600d063db41c44",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -47,7 +47,7 @@
                 }
             ],
             "description": "The CleverPHP Vendor Package",
-            "time": "2020-04-24T15:53:14+00:00"
+            "time": "2020-05-04T15:30:09+00:00"
         },
         {
             "name": "psr/log",
