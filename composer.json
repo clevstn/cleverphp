@@ -1,6 +1,7 @@
 {
   "name": "cleverstone/cleverphp",
   "description": "The Cleverphp Framework. ",
+  "type": "project",
   "keywords": [
     "framework",
     "cleverphp",
@@ -28,8 +29,10 @@
   "autoload": {
     "files": [],
     "psr-4": {
-      "app\\": "app",
-      "ext\\": "ext"
+      "app\\": "app"
+    },
+    "psr-0": {
+      "": "ext"
     }
   },
   "autoload-dev": {
